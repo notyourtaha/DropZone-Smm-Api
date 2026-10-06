@@ -1,0 +1,14 @@
+{
+  "name": "dropzone-smm-api",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Production-ready DropZone server-side API gateway for Social Rank SMM fulfillment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "verify:config": "node --check server.js && node --check api/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
